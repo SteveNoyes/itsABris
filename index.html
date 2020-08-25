@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="img/faviconLogo.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>It's a Bri's Bakery</title>
+  </head>
+  <body>
+
+
+
+    <!-- Top Navigation Menu -->
+
+  	<div class="topnav pinkbg">
+  		<a class="" id="logo" href="index.html"><img src="img/brisLogo400x400.jpg" alt="It's a Bri's Bakery Logo" height="55px"/></a>
+  		<!-- Navigation links (hidden by default) -->
+  		<div id="myLinks" class="culturedWhitebg">
+        <a href="pages/menu.html" class="pinkbgfaded blackFogratx">Menu</a>
+        <a href="pages/contact.html" class="pinkbgfaded blackFogratx">Contact</a>
+        <a href="pages/about.html" class="pinkbgfaded blackFogratx">About</a>
+  		</div>
+  		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  		<a href="javascript:void(0);" class="icon" onclick="toggle()">
+  			<i class="fa fa-bars culturedWhitetx"></i>
+  		</a>
+  	</div>
+    <main>
+        <!--hero banner with background video of bri baking timelapse -->
+      <div class="heroBanner">
+        <video autoplay loop muted>
+          <source src="img/heroVid.mp4" type="video/mp4">
+          Sorry, your browser doesn't support embedded videos.
+        </video>
+        <div class="overlay">
+          <h1>It's a Bri's</h1>
+          <h2>Bakery</h2>
+        </div>
+      </div>
+
+      <div class="heroDesktop">
+        <img class="cupcakebgimg" src="img/itsABrisHERODesktop.jpg" alt="a blurred image of cupcakes">
+        <h1 id="heroTite" class="pinktx">It's a Bri's Bakery</h1>
+      </div>
+
+      <!--about div-->
+      <div class="homepageAbout">
+        <h2>Our Story</h2>
+        <p>It's a Bri's Bakery is defined by a focus on the craft of traditional baking methods. Inspired by family and friends in the bakery, café, grocer, and restaurant industry dating back to 1925. We are concentrating our efforts on the further expansion of our cakes. In search of a unique experience, our sweet team has been sharing and discussing the tastes and knowledge with our family of food experts.</p>
+
+        <!--Call to action buttons-->
+        <a href="pages/menu.html" class="menuBtn">Menu</a>
+      </div>
+
+      <!--Picture Gallery-->
+      <!--Three pictures per row-->
+      <div class="index-gallery">
+        <div class="pictureCard">
+          <img src="img/cake0400x400.jpg" alt="" width="300px" height="auto"/>
+          <h2>Candy Land Cake</h2>
+        </div>
+        <div class="pictureCard">
+          <img src="img/cake1400x400.jpg" alt="" width="300px" height="auto"/>
+          <h2>Crumble Cake</h2>
+        </div>
+        <div class="pictureCard">
+          <img src="img/cake2400x400.jpg" alt="" width="300px" height="auto"/>
+          <h2>Toffee Swirl Pound Cake</h2>
+        </div>
+
+
+        <div class="pictureCard">
+          <img src="img/cincake0400x400.jpg" alt="" width="300px" height="auto"/>
+          <h2>Cinnamon Rolls</h2>
+        </div>
+        <div class="pictureCard">
+          <img src="img/cookies0400x400.jpg" alt="" width="300px" height="auto"/>
+          <h2>Cranberry Cookies</h2>
+        </div>
+        <div class="pictureCard">
+          <img src="img/cupcake1400x400.jpg" alt="" width="300px" height="auto"/>
+          <h2>New England Maple Cupcake</h2>
+      </div>
+    </main>
+      <div class="footer-wrapper-wrapper" style="background-color: #e0dee2;">
+        <footer class="footer-wrapper">
+          <div class="foot-top">
+            <form action="action_page.php" method="post">
+              <div class="">
+                <h2 class="">Newsletter</h2>
+              </div>
+              <div class="newsletter-input">
+                <input type="text" placeholder="Name" name="name" required>
+                <br>
+                <input type="text" placeholder="Email address" name="mail" required>
+              </div>
+              <div class="">
+                <input class="button" type="submit" value="Subscribe">
+              </div>
+            </form>
+            <div class="footer-menu">
+              <a class="" href="pages/menu.html">Menu</a>
+              <a class="" href="pages/contact.html">Contact</a>
+              <a class="" href="pages/about/html">About</a>
+            </div>
+          </div>
+
+          <div class="social">
+            <a class="facebook" href="#"><img src="img/facebook.svg" alt="" height="35px" width="auto"/></a>
+            <a class="twitter" href="#"><img src="img/twitter.svg" alt="" height="35px" width="auto" /></a>
+            <a class="instagram" href="#"><img src="img/insta.svg" alt="" height="35px" width="auto" /></a>
+          </div>
+          <p class="footer-copy">	&copy; It's A Bri's Bakery 2020</p>
+        </footer>
+      </div>
+
+
+    <!--Custom JavaScript-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
